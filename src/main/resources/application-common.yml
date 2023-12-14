@@ -1,2 +1,6 @@
-savepath:
-  m3u8: C:\Users\sbl\Desktop\streamingtest
+savepath: C:\Users\sbl\Desktop\streamingtest
+
+logging:
+  level:
+    com:
+      amazonaws: debug

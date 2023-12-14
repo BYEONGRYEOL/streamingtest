@@ -29,7 +29,7 @@ public class Router {
 	@Bean
 	public RouterFunction<ServerResponse> streamHlsRoute(){
 		return route()
-			.GET("/stream/{streamerName}", request -> testHandler.stream(request))
+			.GET("/stream/{streamername}", request -> testHandler.stream(request))
 			.build();
 	}
 
